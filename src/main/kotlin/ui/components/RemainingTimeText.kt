@@ -1,7 +1,6 @@
 package ui.components
 
 import androidx.compose.animation.AnimatedContent
-import androidx.compose.animation.ExperimentalAnimationApi
 import androidx.compose.animation.fadeIn
 import androidx.compose.animation.fadeOut
 import androidx.compose.animation.slideInVertically
@@ -28,7 +27,6 @@ import androidx.compose.ui.unit.dp
 import ui.theme.ProtossGold
 import kotlin.math.roundToInt
 
-@OptIn(ExperimentalAnimationApi::class)
 @Composable
 fun RemainingTimeText(
     remainingMillis: Long,
